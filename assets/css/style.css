@@ -1,0 +1,290 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar,
+.jumbotron {
+    background-color: #0F1837 !important;
+    border-radius: 0;
+    color: white;
+}
+
+.jumbotron {
+    height: 729px;
+    margin: 0;
+}
+
+.display-4 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    width: 461px;
+    height: 195px;
+}
+
+.jumbotron p {
+    width: 350px;
+    height: 64px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #9094A2;
+}
+
+.jumbotron img:nth-child(1) {
+    z-index: 1;
+}
+
+.jumbotron img:nth-child(2) {
+    position: absolute;
+    width: 387px;
+    height: 360px;
+    left: 279px;
+    top: 305px;
+}
+
+.jumbotron .card {
+    position: absolute;
+    width: 713px;
+    height: 132px;
+    left: 30px;
+    top: 558px;
+}
+
+
+.card .btn-success {
+    width: 170px;
+    height: 70px;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    padding: 20px;
+}
+
+#features {
+    background-color: #F5F6F8;
+    padding-top: 30px;
+    padding-bottom: 5%;
+}
+
+#features h4 {
+    margin-top: 20%;
+}
+
+#features .number {
+    width: 50px;
+    height: 50px;
+    background: #E7E5F9;
+    border-radius: 4px;
+    padding: 19px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#features .item p {
+    margin-top: 4%;
+}
+
+#features .white-card {
+    position: absolute;
+    width: 316px;
+    height: 100px;
+    left: 189px;
+    top: 59px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+#features .white-card li {
+    list-style: none;
+}
+
+#features .white-card li h4 {
+    position: absolute;
+    top: -50%;
+    left: 5%;
+}
+
+#features .white-card li p {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #898889;
+}
+
+#features .white-card p {
+    position: absolute;
+    left: 190px;
+    top: 34px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    color: #0A9F82;
+}
+
+
+#features .yellow-card {
+    position: absolute;
+    left: 0px;
+    top: 440px;
+    background: #F5D35C;
+    border-radius: 6px;
+}
+
+#features .yellow-card p {
+    position: relative;
+    left: 0;
+    top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #132039;
+}
+
+#features .statistic {
+    margin-top: 7%;
+}
+
+#features .statistic .divider {
+    border-right: 1px solid #D5D9E0;
+
+}
+
+#features .statistic h4 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #0F1837;
+}
+
+#features .statistic p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #8A8C97;
+}
+
+#best {
+    margin-top: 20px;
+    margin-bottom: 10%;
+}
+
+#best img {
+    border-radius: 16px;
+}
+
+#footer {
+    background-color: #F5F6F8;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+    .jumbotron select:nth-child(1) {
+        position: absolute;
+        top: 35px;
+        width: 230px;
+        height: 45px;
+    }
+}
+
+/* mobile version */
+@media (max-width: 576px) {
+
+    .display-4 {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 45px;
+        width: 261px;
+        height: 195px;
+    }
+
+    .jumbotron p {
+        margin-top: -15%;
+        width: 250px;
+        height: 34px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 32px;
+        color: #9094A2;
+    }
+
+    .jumbotron .card {
+        position: absolute;
+        width: 283px;
+        height: 332px;
+        left: 18px;
+        top: 358px;
+        padding: 25px;
+    }
+
+    .jumbotron select {
+        margin-bottom: 20px;
+    }
+
+
+    .jumbotron img:nth-child(1) {
+        position: absolute;
+        top: 100%;
+        width: 187px;
+        display: none;
+    }
+
+    .jumbotron img:nth-child(2) {
+        display: none;
+    }
+
+
+    .card .btn-success {
+        position: absolute;
+        top: -15px;
+        left: 25px;
+        padding: 20px;
+    }
+
+    #features .white-card {
+        position: absolute;
+        width: 216px;
+        height: 100px;
+        left: 90px;
+        top: 59px;
+    }
+
+    #features .white-card li h4 {
+        font-size: 18px;
+        position: absolute;
+        top: -20%;
+        left: 5%;
+    }
+
+    #features .white-card li p {
+        font-size: 12px;
+    }
+
+    #features .white-card p {
+        position: absolute;
+        left: 130px;
+        top: 34px;
+        font-size: 16px;
+    }
+
+
+    #features .yellow-card {
+        position: absolute;
+        left: 30px;
+        top: 280px;
+        background: #F5D35C;
+        border-radius: 6px;
+    }
+
+    #features .yellow-card p {
+        font-size: 16px;
+    }
+}
