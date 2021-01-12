@@ -177,7 +177,7 @@
 }
 
 #best img {
-    border-radius: 16px;
+    /* border-radius: 16px; */
 }
 
 #footer {
@@ -286,5 +286,23 @@
 
     #features .yellow-card p {
         font-size: 16px;
+    }
+
+    #bottom-nav nav {
+        height: 45px;
+    }
+
+    #bottom-nav nav li {
+        margin-top: 25px;
+    }
+
+    #bottom-nav a.active {
+        color: #218838 !important;
+    }
+
+    #bottom-nav nav li p {
+        position: relative;
+        top: -5px;
+        font-size: 12px;
     }
 }
