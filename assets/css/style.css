@@ -49,6 +49,7 @@
     height: 132px;
     left: 30px;
     top: 558px;
+    margin-top: 20px;
 }
 
 
@@ -234,8 +235,34 @@
 
 #footer {
     background-color: #F5F6F8;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    height: 184px;
+    padding: 100px;
+}
+
+
+#footer .signup .card {
+    position: absolute;
+    width: 713px;
+    height: 112px;
+    left: 364px;
+    top: 2250px;
+    background: #0F1837;
+    border-radius: 6px;
+}
+
+#footer .signup .card button {
+    position: absolute;
+    width: 170px;
+    height: 70px;
+    left: 0;
+    top: 0;
+    background: #218838;
+    border-radius: 4px;
+    border: none;
+}
+
+#footer .signup .card button:hover {
+    background: #1e7230;
 }
 
 @media (min-width: 992px) {
@@ -361,5 +388,41 @@
         font-weight: 400;
         line-height: 1.5;
         color: #495057;
+    }
+
+    #footer .signup .card {
+        position: absolute;
+        width: 300px;
+        height: 135px;
+        left: 25px;
+        top: 4180px;
+        background: #0F1837;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    #footer .signup .card input {
+        width: 110px;
+    }
+
+
+    #footer .signup .card button {
+        position: absolute;
+        width: 90%;
+        height: 30px;
+        left: 15px;
+        top: 10px;
+        background: #218838;
+        border-radius: 4px;
+        border: none;
+        font-size: 12px;
+    }
+
+    #footer .signup .card .form-control {
+        font-size: 0.7rem;
+    }
+
+    #footer .signup .card button:hover {
+        background: #1e7230;
     }
 }
