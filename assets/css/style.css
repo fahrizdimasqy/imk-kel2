@@ -392,10 +392,10 @@
 
     #footer .signup .card {
         position: absolute;
-        width: 300px;
-        height: 135px;
+        width: 85%;
+        height: 18%;
         left: 25px;
-        top: 4180px;
+        top: 568.0%;
         background: #0F1837;
         border-radius: 6px;
         font-size: 14px;
