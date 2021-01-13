@@ -426,3 +426,106 @@
         background: #1e7230;
     }
 }
+
+@media (min-width: 381px) and (max-width:427px) {
+
+    #footer .signup .card {
+        position: absolute;
+        width: 85%;
+        height: 18%;
+        left: 25px;
+        top: 568.0%;
+        background: #0F1837;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    #footer .signup .card input {
+        width: 110px;
+    }
+
+
+    #footer .signup .card button {
+        position: absolute;
+        width: 350%;
+        height: 30px;
+        left: -265px;
+        top: 70px;
+        background: #218838;
+        border-radius: 4px;
+        border: none;
+        font-size: 12px;
+    }
+
+    #footer .signup .card .form-control {
+        font-size: 0.7rem;
+    }
+
+    #footer .signup .card button:hover {
+        background: #1e7230;
+    }
+}
+
+@media (max-width:343px) {
+    #footer {
+        width: 100%;
+        background-color: #F5F6F8;
+        height: 184px;
+        padding: 120px;
+    }
+
+    #footer p {
+        margin-top: 20px;
+        font-size: 11px;
+    }
+
+    #footer .signup .card {
+        position: absolute;
+        width: 85%;
+        height: 28%;
+        left: 25px;
+        top: 557.0%;
+        background: #0F1837;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    #footer .signup .card input {
+        width: 240px;
+    }
+
+
+    #footer .signup .card button {
+        position: absolute;
+        width: 82%;
+        height: 30px;
+        left: 15px;
+        top: 20px;
+        background: #218838;
+        border-radius: 4px;
+        border: none;
+        font-size: 12px;
+    }
+
+    #footer .signup .card .form-control {
+        font-size: 0.7rem;
+    }
+
+    #footer .signup .card button:hover {
+        background: #1e7230;
+    }
+}
+
+@media (max-width:355px) {
+    #footer {
+        width: 100%;
+        background-color: #F5F6F8;
+        height: 184px;
+        padding: 80px;
+    }
+
+    #footer p {
+        margin-top: 25px;
+        font-size: 14px;
+    }
+}
