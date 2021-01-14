@@ -401,6 +401,7 @@
     }
 
     #footer .signup .card {
+        display: none;
         /* position: absolute; */
         width: 85%;
         margin: auto;
@@ -458,6 +459,7 @@
         background: #0F1837;
         border-radius: 6px;
         font-size: 14px;
+        display: none;
     }
 
     #footer .signup .card input {
@@ -500,6 +502,7 @@
     }
 
     #footer .signup .card {
+        display: none;
         position: absolute;
         width: 85%;
         height: 28%;
