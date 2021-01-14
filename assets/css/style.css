@@ -235,19 +235,23 @@
 
 #footer {
     background-color: #F5F6F8;
-    height: 184px;
-    padding: 100px;
+    /* height: 84px; */
+    /* padding: 0px; */
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 
 #footer .signup .card {
-    position: absolute;
+    /* position: absolute; */
     width: 713px;
     height: 112px;
-    left: 364px;
-    top: 2250px;
+    /* left: 364px; */
+    /* top: 2320px; */
     background: #0F1837;
     border-radius: 6px;
+    margin: auto;
+    transform: translateY(-60px);
 }
 
 #footer .signup .card button {
@@ -264,6 +268,12 @@
 #footer .signup .card button:hover {
     background: #1e7230;
 }
+
+.single-product {
+    margin-bottom: 20px;
+}
+
+
 
 @media (min-width: 992px) {
     .navbar .btn-success {
@@ -391,14 +401,15 @@
     }
 
     #footer .signup .card {
-        position: absolute;
+        /* position: absolute; */
         width: 85%;
-        height: 18%;
-        left: 25px;
-        top: 568.0%;
+        margin: auto;
         background: #0F1837;
         border-radius: 6px;
         font-size: 14px;
+        height: 18% !important;
+
+
     }
 
     #footer .signup .card input {
@@ -407,15 +418,17 @@
 
 
     #footer .signup .card button {
-        position: absolute;
-        width: 90%;
+        /* margin-top: -10px; */
+        position: relative;
+        width: 40%;
         height: 30px;
-        left: 15px;
-        top: 10px;
+        /* left: 15px; */
+        /* top: 10px; */
         background: #218838;
         border-radius: 4px;
         border: none;
         font-size: 12px;
+        transform: translateY(10px);
     }
 
     #footer .signup .card .form-control {
@@ -425,6 +438,13 @@
     #footer .signup .card button:hover {
         background: #1e7230;
     }
+
+    .single-product img {
+        width: 200%;
+        height: 200px;
+        object-fit: cover;
+    }
+
 }
 
 @media (min-width: 381px) and (max-width:427px) {
